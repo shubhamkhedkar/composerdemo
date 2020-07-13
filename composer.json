@@ -1,0 +1,17 @@
+{
+    "name": "ShubhamSanket/first_composer_demo",
+    "description": "This package is to test.",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"       
+    },
+    "authors": [
+        {
+            "name": "Shubham Khedkar",
+            "email": "shubhamkhedkar879@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"ShubhamSanket\\": ""}
+    }
+}
